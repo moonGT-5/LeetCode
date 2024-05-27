@@ -1,4 +1,8 @@
+package 两数之和;
+
 import org.junit.Test;
+import 两数之和.Solution;
+
 import java.util.Arrays;
 import static org.junit.Assert.assertArrayEquals;
 
