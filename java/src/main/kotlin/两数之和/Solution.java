@@ -10,7 +10,7 @@ import java.util.Map;
 //你可以假设每种输入只会对应一个答案。但是，数组中同一个元素在答案里不能重复出现。
 //你可以按任意顺序返回答案。
 public class Solution {
-//7ms 43.70M
+    //7ms 43.70M
     public int[] twoSum1(int[] nums, int target) {
         Integer[] index = new Integer[nums.length];
         for (int i = 0; i < nums.length; i++) {
@@ -34,18 +34,17 @@ public class Solution {
         }
         return result;
     }
-//5ms 43.6M
+
+    //2ms 44.0M
     public int[] twoSum2(int[] nums, int target) {
-        int[] result = new int[2];
         Map<Integer, Integer> numMap = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             int temp = target - nums[i];
             if (numMap.containsKey(temp)) {
-                result[0] = numMap.get(temp);
-                result[1] = i;
+                return new int[]{numMap.get(temp), i};
             }
             numMap.put(nums[i], i);
         }
-        return result;
+        return null;
     }
 }

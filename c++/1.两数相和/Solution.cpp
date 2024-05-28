@@ -1,3 +1,4 @@
+#include <unordered_map>
 #include "Solution.h"
 
 using namespace std;
@@ -26,7 +27,18 @@ vector<int> Solution::twoSum1(vector<int> &nums, int target) {
     }
     return result;
 }
-
-vector<int> Solution::twoSum2(vector<int> &nums, int target) {
-
+//13ms 13.72m
+vector<int> Solution::twoSum2(vector<int>& nums, int target) {
+    vector<int> result(2);
+    unordered_map<int, int> map;
+    for (int i = 0; i < nums.size(); i++) {
+        int temp = target - nums[i];
+        if (map.find(temp) != map.end()) {
+            result[0] = map[temp];
+            result[1] = i;
+            return result;
+        }
+        map[nums[i]] = i;
+    }
+    return result;
 }
