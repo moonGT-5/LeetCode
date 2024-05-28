@@ -1,0 +1,20 @@
+# ninja log v5
+5	246	7386098428857220	CMakeFiles/TwoSum.dir/Solution.cpp.obj	f05df40d8492b874
+2	344	7386098429857790	CMakeFiles/TwoSum.dir/main.cpp.obj	4023f48b8f5b84c8
+345	424	7386098430613111	TwoSum.exe	b1dadd2d2ecaff18
+1	91	7386102181019468	build.ninja	22319a3e4267e22a
+4	211	7386102183255123	CMakeFiles/TwoSum.dir/Solution.cpp.obj	f05df40d8492b874
+2	294	7386102184096308	CMakeFiles/TwoSum.dir/main.cpp.obj	4023f48b8f5b84c8
+294	357	7386102184691682	TwoSum.exe	b1dadd2d2ecaff18
+4	206	7386104817659159	CMakeFiles/TwoSum.dir/Solution.cpp.obj	f05df40d8492b874
+2	276	7386104818364300	CMakeFiles/TwoSum.dir/main.cpp.obj	4023f48b8f5b84c8
+276	348	7386104819044283	TwoSum.exe	b1dadd2d2ecaff18
+8	208	7386105631193502	CMakeFiles/TwoSum.dir/Solution.cpp.obj	f05df40d8492b874
+4	286	7386105631965658	CMakeFiles/TwoSum.dir/main.cpp.obj	4023f48b8f5b84c8
+286	352	7386105632591672	TwoSum.exe	b1dadd2d2ecaff18
+5	199	7386114856123608	CMakeFiles/TwoSum.dir/Solution.cpp.obj	f05df40d8492b874
+4	178	7386114866756964	CMakeFiles/TwoSum.dir/Solution.cpp.obj	f05df40d8492b874
+5	194	7386114920289549	CMakeFiles/TwoSum.dir/Solution.cpp.obj	f05df40d8492b874
+7	202	7386115080322700	CMakeFiles/TwoSum.dir/Solution.cpp.obj	f05df40d8492b874
+2	270	7386115081008475	CMakeFiles/TwoSum.dir/main.cpp.obj	4023f48b8f5b84c8
+270	345	7386115081718497	TwoSum.exe	b1dadd2d2ecaff18

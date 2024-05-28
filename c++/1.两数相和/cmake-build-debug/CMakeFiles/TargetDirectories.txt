@@ -1,3 +1,3 @@
-D:/workspace/code/leetcode/c++/cmake-build-debug/CMakeFiles/c__.dir
-D:/workspace/code/leetcode/c++/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/workspace/code/leetcode/c++/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/workspace/code/leetcode/c++/1.两数相和/cmake-build-debug/CMakeFiles/TwoSum.dir
+D:/workspace/code/leetcode/c++/1.两数相和/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/workspace/code/leetcode/c++/1.两数相和/cmake-build-debug/CMakeFiles/rebuild_cache.dir
