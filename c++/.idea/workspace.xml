@@ -11,7 +11,7 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="TwoSum" targetName="TwoSum" />
+      <config projectName="Solution" targetName="addTwoNumbers" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -20,7 +20,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd32d0fb-a3eb-415c-848a-a1d153544d77" name="更改" comment="" />
+    <list default="true" id="cd32d0fb-a3eb-415c-848a-a1d153544d77" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.两数之和/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.两数之和/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.两数之和/Solution.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TwoSum/Solution.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.两数之和/Solution.h" beforeDir="false" afterPath="$PROJECT_DIR$/TwoSum/Solution.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.两数之和/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TwoSum/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python/.idea/misc.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,10 +66,13 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;C/C++ 文件.gtest.cpp.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ 文件.main.cpp.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ 文件.twoSum.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 应用程序.Solution.executor&quot;: &quot;Run&quot;,
     &quot;CMake 应用程序.TwoSum.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 应用程序.addTwoNumbers.executor&quot;: &quot;Run&quot;,
     &quot;CMake 应用程序.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -67,7 +81,7 @@
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/workspace/code/leetcode/c++/1.两数之和/CMakeLists.txt&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/workspace/code/leetcode/c++/CMakeLists.txt&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -80,19 +94,36 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\code\leetcode\c++\2. 两数相加" />
+      <recent name="D:\workspace\code\leetcode\c++\1.两数之和" />
       <recent name="D:\workspace\code\leetcode\c++\2.两数相加" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\code\leetcode\c++\1.两数相和" />
       <recent name="D:\workspace\code\leetcode\c++" />
+      <recent name="D:\workspace\code\leetcode\c++\2. 两数相加" />
+      <recent name="D:\workspace\code\leetcode\c++\1.两数相和" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="TwoSum" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TwoSum" TARGET_NAME="TwoSum" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TwoSum" RUN_TARGET_NAME="TwoSum">
+  <component name="RunManager" selected="CMake 应用程序.addTwoNumbers">
+    <configuration name="Solution" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Solution" TARGET_NAME="TwoSum" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Solution" RUN_TARGET_NAME="TwoSum">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="addTwoNumbers" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Solution" TARGET_NAME="addTwoNumbers" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Solution" RUN_TARGET_NAME="addTwoNumbers">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.Solution" />
+      <item itemvalue="CMake 应用程序.addTwoNumbers" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -113,6 +144,11 @@
       <workItem from="1716906606166" duration="3680000" />
       <workItem from="1716910450338" duration="169000" />
       <workItem from="1716910639070" duration="149000" />
+      <workItem from="1716975387088" duration="881000" />
+      <workItem from="1716976545149" duration="762000" />
+      <workItem from="1716977316057" duration="442000" />
+      <workItem from="1716977765898" duration="558000" />
+      <workItem from="1716978350370" duration="75000" />
     </task>
     <servers />
   </component>
